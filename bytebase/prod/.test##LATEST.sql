@@ -14,3 +14,7 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`)
 );
 
+CREATE TABLE `t4` (
+  `a` INT(11) NOT NULL DEFAULT '0',
+  `b` INT(11) NOT NULL DEFAULT '0'
+);
