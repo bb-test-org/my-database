@@ -5,12 +5,12 @@ CREATE TABLE `t1` (
 
 CREATE TABLE `t3` (
   `a` INT(11) NOT NULL DEFAULT '0',
-  `b` INT(11) DEFAULT NULL
+  `b` INT(11) NOT NULL DEFAULT '0'
 );
 
 CREATE TABLE `user` (
   `id` INT(10) NOT NULL,
-  `name` VARCHAR(20) DEFAULT NULL,
+  `name` VARCHAR(20) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
 );
 
