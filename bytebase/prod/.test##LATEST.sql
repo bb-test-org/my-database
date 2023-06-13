@@ -4,7 +4,7 @@ CREATE TABLE `t1` (
 );
 
 CREATE TABLE `t3` (
-  `a` INT(11) DEFAULT NULL,
+  `a` INT(11) NOT NULL DEFAULT '0',
   `b` INT(11) DEFAULT NULL
 );
 
